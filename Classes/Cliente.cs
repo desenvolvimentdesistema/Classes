@@ -5,7 +5,7 @@ public class Cliente
 
     public void SetName (string name)
     {
-        this. name = name;
+        this.name = name;
     }
     public string GetName()
     {

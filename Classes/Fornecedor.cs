@@ -5,7 +5,7 @@ public class Fornecedor
 
     public void SetNome (string name)
     {
-        this. name = name;
+        this.name = name;
     }
     public string GetNome()
     {
