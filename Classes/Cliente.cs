@@ -1,14 +1,14 @@
 public class Cliente
 {
-    string name;
+    string nome;
     Int64 id;
 
-    public void SetName (string name)
+    public void SetName (string nome)
     {
-        this.name = name;
+        this.nome = nome;
     }
     public string GetName()
     {
-        return name;
+        return nome;
     }
 }

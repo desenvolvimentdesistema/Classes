@@ -28,11 +28,29 @@ build_metadata.AdditionalFiles.ManifestResourceName = Classes.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/Aluno/Classes/Classes/CadastroCliente.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.CadastroCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = CadastroCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = CadastroCliente.xaml
+
+[C:/Users/Aluno/Classes/Classes/EscolherQuantidade.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.EscolherQuantidade.xaml
+build_metadata.AdditionalFiles.TargetPath = EscolherQuantidade.xaml
+build_metadata.AdditionalFiles.RelativePath = EscolherQuantidade.xaml
+
 [C:/Users/Aluno/Classes/Classes/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Classes.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Aluno/Classes/Classes/RealizarPedido.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.RealizarPedido.xaml
+build_metadata.AdditionalFiles.TargetPath = RealizarPedido.xaml
+build_metadata.AdditionalFiles.RelativePath = RealizarPedido.xaml
 
 [C:/Users/Aluno/Classes/Classes/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -45,3 +63,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Classes.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/Aluno/Classes/Classes/TelaInicial.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.TelaInicial.xaml
+build_metadata.AdditionalFiles.TargetPath = TelaInicial.xaml
+build_metadata.AdditionalFiles.RelativePath = TelaInicial.xaml

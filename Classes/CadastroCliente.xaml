@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Classes.MainPage"
+             BackgroundColor="#FFD6D6">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Padding="20" Spacing="10">
+        <Label Text="Cadastramento" HorizontalOptions="Center" />
+
+        <Entry x:Name="NameEntry" Placeholder="Nome" />
+        <Entry x:Name="PhoneEntry" Placeholder="Telefone" />
+        <Entry x:Name="AddressEntry" Placeholder="Endereço" />
+        <Entry x:Name="EmailEntry" Placeholder="Email" />
+        <Entry x:Name="CpfEntry" Placeholder="CPF" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="10">
+            <Button Text="Salvar" BackgroundColor="#FFB6C1" Clicked="OnSaveClicked" />
+            <Button Text="Cancelar" BackgroundColor="#C71585" TextColor="White" Clicked="OnCancelClicked" />
+            <Button Text="Deletar" BackgroundColor="#ADD8E6" Clicked="OnDeleteClicked" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Classes.MainPage"
+             BackgroundColor="#ffb6c1">
+    <StackLayout Padding="20"
+                 VerticalOptions="Center">
+        <Button Text="Madagascar Costura"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#d3d3d3"/>
+        <Button Text="Cadastro"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#d3d3d3"/>
+        <Button Text="Realizar Pedido"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#d3d3d3"/>
+        <Button Text="Estoque"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#d3d3d3"/>
+        <Button Text="Controle de Qualidade"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#d3d3d3"/>
+        <Button Text="Feedback do Cliente"
+                HorizontalOptions="Center"
+                VerticalOptions="Start"
+                BackgroundColor="#d3d3d3"/>
+    </StackLayout>
+</ContentPage>

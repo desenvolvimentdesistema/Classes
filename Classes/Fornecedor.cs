@@ -1,14 +1,14 @@
 public class Fornecedor
 {
-    string name;
+    string nome;
     Int64 id;
 
-    public void SetNome (string name)
+    public void SetNome (string nome)
     {
-        this.name = name;
+        this.nome = nome;
     }
     public string GetNome()
     {
-        return name;
+        return nome;
     }
 }
