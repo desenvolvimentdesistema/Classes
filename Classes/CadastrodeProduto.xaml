@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Classes.MainPage"
+             BackgroundColor="LightPink">
+
+    <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+
+        <Button Text="Cadastro de Produto"
+                HorizontalOptions="Center"
+                BackgroundColor="Lavender"
+                WidthRequest="200" />
+
+        <Entry Placeholder="Nome do Produto"
+               HorizontalOptions="Center"
+               WidthRequest="200"
+               BackgroundColor="Lavender" />
+
+        <Entry Placeholder="Quantia"
+               HorizontalOptions="Center"
+               WidthRequest="200"
+               BackgroundColor="Lavender" />
+
+        <Entry Placeholder="Cor"
+               HorizontalOptions="Center"
+               WidthRequest="200"
+               BackgroundColor="Lavender" />
+
+        <Entry Placeholder="Tamanho"
+               HorizontalOptions="Center"
+               WidthRequest="200"
+               BackgroundColor="Lavender" />
+
+        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+            <Button Text="Salvar"
+                    BackgroundColor="LightPink"
+                    TextColor="Black" />
+
+            <Button Text="Cancelar"
+                    BackgroundColor="DarkRed"
+                    TextColor="White" />
+
+            <Button Text="Deletar"
+                    BackgroundColor="LightBlue"
+                    TextColor="Black" />
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>

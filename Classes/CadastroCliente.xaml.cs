@@ -1,6 +1,6 @@
 using Microsoft.Maui.Controls;
 
-namespace Classes.CadastrodeCliente;
+namespace Classes
     public partial class MainPage : ContentPage
     {
         public MainPage()

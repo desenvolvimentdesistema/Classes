@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Classes.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout Padding="10" BackgroundColor="Pink" VerticalOptions="Center" HorizontalOptions="Center">
+            <Frame BackgroundColor="Pink" CornerRadius="20" Padding="10" HasShadow="True">
+                <StackLayout>
+                    <Label Text="Corte" HorizontalOptions="Center" FontAttributes="Bold" />
+                    <Entry Placeholder="Quantidade" />
+                    <Entry Placeholder="Cor" />
+                    <Entry Placeholder="Formato do Corte" />
+                    <Entry Placeholder="Tamanhos" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
