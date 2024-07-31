@@ -4,7 +4,9 @@
              x:Class="Classes.MainPage"
              BackgroundColor="LightPink">
 
-    <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
+    <VerticalStackLayout Padding="20" 
+                         Spacing="15" 
+                         VerticalOptions="Center">
 
         <Button Text="Cadastro de Produto"
                 HorizontalOptions="Center"
@@ -31,7 +33,8 @@
                WidthRequest="200"
                BackgroundColor="Lavender" />
 
-        <HorizontalStackLayout HorizontalOptions="Center" Spacing="10">
+        <HorizontalStackLayout HorizontalOptions="Center" 
+                               Spacing="10">
             <Button Text="Salvar"
                     BackgroundColor="LightPink"
                     TextColor="Black" />

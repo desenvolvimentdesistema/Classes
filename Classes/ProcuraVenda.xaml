@@ -2,13 +2,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SeuApp.PesquisaVendaPage">
     <ScrollView>
-        <StackLayout Spacing="20" Padding="20">
-            <Label Text="Procurar Venda" FontSize="Title" />
-            <Entry Placeholder="ID do Produto" x:Name="IdProdutoEntry" />
-            <Entry Placeholder="Cliente" x:Name="ClienteEntry" />
-            <Entry Placeholder="ID Cliente" x:Name="IdClienteEntry" />
-            <DatePicker DateSelected="DatePicker_DateSelected" x:Name="DataVendaPicker" />
-            <Button Text="Procurar" Clicked="Procurar_Clicked" />
+        <StackLayout Spacing="20" 
+                     Padding="20">
+            <Label Text="Procurar Venda" 
+                   FontSize="Title" />
+            <Entry Placeholder="ID do Produto" 
+                   x:Name="IdProdutoEntry" />
+            <Entry Placeholder="Cliente" 
+                   x:Name="ClienteEntry" />
+            <Entry Placeholder="ID Cliente" 
+                   x:Name="IdClienteEntry" />
+            <DatePicker DateSelected="DatePicker_DateSelected" 
+                        x:Name="DataVendaPicker" />
+            <Button Text="Procurar" 
+                    Clicked="Procurar_Clicked" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

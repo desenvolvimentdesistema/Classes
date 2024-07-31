@@ -4,10 +4,18 @@
              x:Class="Classes.MainPage">
 
     <ContentPage.Content>
-        <StackLayout Padding="10" BackgroundColor="Pink" VerticalOptions="Center" HorizontalOptions="Center">
-            <Frame BackgroundColor="Pink" CornerRadius="20" Padding="10" HasShadow="True">
+        <StackLayout Padding="10" 
+                     BackgroundColor="Pink" 
+                     VerticalOptions="Center" 
+                     HorizontalOptions="Center">
+            <Frame BackgroundColor="Pink" 
+                   CornerRadius="20" 
+                   Padding="10" 
+                   HasShadow="True">
                 <StackLayout>
-                    <Label Text="Costura" HorizontalOptions="Center" FontAttributes="Bold" />
+                    <Label Text="Costura" 
+                           HorizontalOptions="Center" 
+                           FontAttributes="Bold" />
                     <Entry Placeholder="Quantidade" />
                     <Entry Placeholder="Cor da Costura" />
                     <Entry Placeholder="Formato da Costura" />

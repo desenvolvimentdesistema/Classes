@@ -2,16 +2,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Classes.CadastroVendaPage">
     <ScrollView>
-        <StackLayout Spacing="20" Padding="20">
-            <Label Text="Cadastro de Venda" FontSize="Title" />
-            <Entry Placeholder="Valor da Venda" x:Name="ValorVendaEntry" />
-            <Entry Placeholder="Quantidade" x:Name="QuantidadeEntry" />
-            <Entry Placeholder="ID do Produto" x:Name="IdProdutoEntry" />
-            <Entry Placeholder="Cliente" x:Name="ClienteEntry" />
-            <Entry Placeholder="ID do Cliente" x:Name="IdClienteEntry" />
-            <DatePicker DateSelected="DatePicker_DateSelected" x:Name="DataVendaPicker" />
-            <Button Text="Salvar" Clicked="Salvar_Clicked" />
-            <Button Text="Cancelar" Clicked="Cancelar_Clicked" />
+        <StackLayout Spacing="20" 
+                     Padding="20">
+            <Label Text="Cadastro de Venda" 
+                   FontSize="Title" />
+            <Entry Placeholder="Valor da Venda" 
+                   x:Name="ValorVendaEntry" />
+            <Entry Placeholder="Quantidade" 
+                   x:Name="QuantidadeEntry" />
+            <Entry Placeholder="ID do Produto" 
+                   x:Name="IdProdutoEntry" />
+            <Entry Placeholder="Cliente" 
+                   x:Name="ClienteEntry" />
+            <Entry Placeholder="ID do Cliente" 
+                   x:Name="IdClienteEntry" />
+            <DatePicker DateSelected="DatePicker_DateSelected" 
+                        x:Name="DataVendaPicker" />
+            <Button Text="Salvar" 
+                    Clicked="Salvar_Clicked" />
+            <Button Text="Cancelar" 
+                    Clicked="Cancelar_Clicked" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

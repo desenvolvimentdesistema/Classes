@@ -4,7 +4,9 @@
              x:Class="Classes.MainPage"
              BackgroundColor="LightPink">
 
-    <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="Center">
+    <VerticalStackLayout Padding="20" 
+                         Spacing="20" 
+                         VerticalOptions="Center">
 
         <Button Text="Estoque"
                 HorizontalOptions="Center" />
