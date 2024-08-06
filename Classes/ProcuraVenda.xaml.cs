@@ -1,8 +1,8 @@
 namespace Classes
 {
-    public partial class PesquisaVendaPage : ContentPage
+    public partial class  MainPage : ContentPage
     {
-        public PesquisaVendaPage()
+        public ProcuraVendaPage()
         {
             InitializeComponent();
         }

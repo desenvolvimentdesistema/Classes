@@ -1,6 +1,6 @@
 namespace Classes
 {
-    public partial class CadastroVendaPage : ContentPage
+    public partial class  MainPage : ContentPage
     {
         public CadastroVendaPage()
         {

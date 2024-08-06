@@ -1,6 +1,6 @@
 namespace Classes
 {
-    public partial class QuantityPage : ContentPage
+    public partial class  MainPage : ContentPage
     {
         public QuantityPage()
         {

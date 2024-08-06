@@ -1,6 +1,5 @@
-namespace SeuNamespace
-{
-    public partial class SeuUserControl : UserControl
+namespace Classes
+    public partial class  MainPage : ContentPage
     {
         public SeuUserControl()
         {
@@ -29,4 +28,3 @@ namespace SeuNamespace
             // Implementar lógica de atualização ao clicar em Sim
         }
     }
-}
