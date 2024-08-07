@@ -24,7 +24,7 @@ namespace Classes
         {
             // Exibir painel de confirmação
             Panel.Confirmacao.Visibility = Visibility.Visible;
-            Text.Operacao.Text = "atualizar?";
+            Text.Operacao.Text = "Você Deseja Atualizar?";
             // Implementar lógica de atualização ao clicar em Sim
         }
     }
