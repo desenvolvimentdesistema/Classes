@@ -4,7 +4,8 @@
              x:Class="Classes.MainPage"
              BackgroundColor="LightPink">
 
-    <VerticalStackLayout Padding="20" Spacing="20">
+    <VerticalStackLayout Padding="20" 
+                         Spacing="20">
 
         <Button Text="Escolher Tamanho"
                 HorizontalOptions="Center"

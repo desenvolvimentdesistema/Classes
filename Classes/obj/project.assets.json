@@ -32922,11 +32922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Classes\\Classes\\Classes.csproj",
+      "projectUniqueName": "C:\\Users\\Aluno\\Classes-1\\Classes\\Classes.csproj",
       "projectName": "Classes",
-      "projectPath": "C:\\Users\\Aluno\\Classes\\Classes\\Classes.csproj",
+      "projectPath": "C:\\Users\\Aluno\\Classes-1\\Classes\\Classes.csproj",
       "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Classes\\Classes\\obj\\",
+      "outputPath": "C:\\Users\\Aluno\\Classes-1\\Classes\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
