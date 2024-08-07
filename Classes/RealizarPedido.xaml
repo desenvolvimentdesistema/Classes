@@ -24,10 +24,10 @@
         <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center"
                      VerticalOptions="EndAndExpand">
-            <Image Source="cart_image.png" 
+            <Image Source="cartimage.png" 
                    WidthRequest="50" 
                    HeightRequest="50"/>
-            <Image Source="shirt_image.png" 
+            <Image Source="shirtimage.png" 
                    WidthRequest="50" 
                    HeightRequest="50"/>
         </StackLayout>

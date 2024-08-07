@@ -10,7 +10,7 @@
                 HorizontalOptions="Center"
                 VerticalOptions="Start" />
 
-        <Image Source="tabela_de_medidas.png"
+        <Image Source="tabelademedidas.jpg"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
 
