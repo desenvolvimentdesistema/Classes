@@ -4,7 +4,7 @@ namespace Classes
     {
         public MainPage()
         {
-            InitializeComponent();
+   
         }
     }
 }

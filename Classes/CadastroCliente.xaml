@@ -11,15 +11,15 @@
         <Label Text="Cadastramento" 
                 HorizontalOptions="Center" />
 
-        <Entry x:Name="NameEntry" 
+        <Entry x:Name="NomeEntry" 
                  Placeholder="Nome" />
-        <Entry x:Name="PhoneEntry" 
+        <Entry x:Name="TelefoneEntry" 
                  Placeholder="Telefone" />
-        <Entry x:Name="AddressEntry" 
+        <Entry x:Name="EndereçoEntry" 
                  Placeholder="Endereço" />
         <Entry x:Name="EmailEntry" 
                  Placeholder="Email" />
-        <Entry x:Name="CpfEntry" 
+        <Entry x:Name="CPFEntry" 
                  Placeholder="CPF" />
 
         <StackLayout Orientation="Horizontal" 

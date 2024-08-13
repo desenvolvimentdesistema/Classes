@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Classes.QuantityPage"
+             x:Class="Classes.MainPage"
              BackgroundColor="#ffb6c1">
     <StackLayout Padding="20"
                  VerticalOptions="Center">
@@ -20,7 +20,7 @@
             <Frame BackgroundColor="#d3d3d3"
                    Padding="10"
                    Margin="0,5">
-                <Label Text="De 1 a 20\nR$45,00"
+                <Label Text="De 1 a 20: R$45,00"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
                        FontSize="Medium"
@@ -36,7 +36,7 @@
             <Frame BackgroundColor="#d3d3d3"
                    Padding="10"
                    Margin="0,5">
-                <Label Text="De 20 a 100\nR$25,00"
+                <Label Text="De 20 a 100: R$25,00"
                        HorizontalOptions="Center"
                        VerticalOptions="Center"
                        FontSize="Medium"
