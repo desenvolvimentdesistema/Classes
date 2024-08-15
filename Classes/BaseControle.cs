@@ -33,14 +33,14 @@ public class BaseControle
   
   //----------------------------------------------------------------------------
 
-  public virtual Registro? Ler(int id)
+  public virtual Cadastro? Ler(int id)
   {
     return null;
   }
 
   //----------------------------------------------------------------------------
 
-  public virtual List<Registro>? LerTodos()
+  public virtual List<Cadastro>? LerTodos()
   {
     return null;
   }
