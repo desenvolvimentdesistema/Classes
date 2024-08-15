@@ -1,4 +1,5 @@
-using Modelos;
+using Classes;
+using Classes.Modelos;
 
 namespace Classes;
 

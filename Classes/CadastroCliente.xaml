@@ -42,7 +42,7 @@
                       Margin="10"/>
 
           <Button Content="Deletar" 
-                  Click="Button_Delete_Click" 
+                  Clicked="ButtonDeleteClick" 
                   Margin="10" />
           <Button Content="Dados Incorretos" 
                  Click="Button_DadosIncorretos_Click" 

@@ -16,12 +16,12 @@
                    x:Name="ClienteEntry" />
             <Entry Placeholder="ID do Cliente" 
                    x:Name="IdClienteEntry" />
-            <DatePicker DateSelected="DatePicker_DateSelected" 
+            <DatePicker DateSelected="DatePickerDateSelected" 
                         x:Name="DataVendaPicker" />
             <Button Text="Salvar" 
-                    Clicked="Salvar_Clicked" />
+                    Clicked="SalvarClicked" />
             <Button Text="Cancelar" 
-                    Clicked="Cancelar_Clicked" />
+                    Clicked="CancelarClicked" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

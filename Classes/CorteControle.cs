@@ -1,12 +1,13 @@
+
 using Classes.Modelos;
 
 namespace Classes;
 
-public class PedidoControle : BaseControle
+public class CorteControle : BaseControle
 {
   //----------------------------------------------------------------------------
 
-  public PedidoControle() : base()
+  public CorteControle() : base()
   {
     NomeDaTabela = "Clientes";
   }

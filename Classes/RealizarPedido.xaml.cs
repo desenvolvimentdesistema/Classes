@@ -1,7 +1,7 @@
 namespace Classes
     public partial class MainPage : ContentPage
     {
-        public MainPage()
+        public RealizarPedidoMainPage()
         {
             InitializeComponent();
         }

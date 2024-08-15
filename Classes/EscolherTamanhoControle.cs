@@ -1,12 +1,12 @@
-using Modelos;
+using Classes.Modelos;
 
 namespace Classes;
 
-public class  EscolherTamanhoControle: BaseControle
-{e
+public class EscolherTamanhoControle : BaseControle
+{
   //----------------------------------------------------------------------------
 
-  public PedidoControle() : base()
+  public EscolherTamanhoControle() : base()
   {
     NomeDaTabela = "Clientes";
   }

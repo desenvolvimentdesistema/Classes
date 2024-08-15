@@ -2,18 +2,18 @@ using Classes.Modelos;
 
 namespace Classes;
 
-public class PedidoControle : BaseControle
+public class MateriaPrimaControle : BaseControle
 {
   //----------------------------------------------------------------------------
 
-  public PedidoControle() : base()
+  public MateriaPrimaControle() : base()
   {
     NomeDaTabela = "Clientes";
   }
 
   //----------------------------------------------------------------------------
 
-  public virtual Cadastro? Ler(int idCliente)
+  public virtual Registro? Ler(int idCliente)
   {
     var collection = liteDB.GetCollection<Cliente>(NomeDaTabela);
     return collection.FindOne(d => d.Id == idCliente);

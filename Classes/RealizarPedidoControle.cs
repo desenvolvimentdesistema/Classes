@@ -2,11 +2,11 @@ using Classes.Modelos;
 
 namespace Classes;
 
-public class PedidoControle : BaseControle
+public class RealizarPedidoControle : BaseControle
 {
   //----------------------------------------------------------------------------
 
-  public PedidoControle() : base()
+  public RealizarPedidoControle() : base()
   {
     NomeDaTabela = "Clientes";
   }
