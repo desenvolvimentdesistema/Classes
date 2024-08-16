@@ -1,8 +1,10 @@
-namespace Classes;
-    public partial class MainPage : ContentPage
-    {
-        public MainPage()
+namespace Classes
+{
+        public partial class MainPage : ContentPage
         {
+            public MainPage()
+            {
    
+            }
         }
-    }
+}

@@ -2,14 +2,17 @@ namespace Classes
 {
     public partial class  MainPage : ContentPage
     {
-        public CadastrodeVendaeDeletarPage()
+        public object ValordaVendaEntry { get; private set; }
+        public object QuantidadeEntry { get; private set; }
+
+        public MainPage()
         {
 
         }
 
         private void Salvar_Clicked(object sender, EventArgs e)
         {
-            string valorVenda = ValorVendaEntry.Text;
+            string valorVenda = ValordaVendaEntry.Text;
             int quantidade = int.Parse(QuantidadeEntry.Text);
         }
 

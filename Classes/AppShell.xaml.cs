@@ -1,9 +1,10 @@
-﻿namespace Classes;
-
-public partial class AppShell : Shell
+﻿namespace Classes
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+    	public AppShell()
+    	{
+    		InitializeComponent();
+    	}
+    }
 }

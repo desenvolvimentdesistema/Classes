@@ -7,7 +7,7 @@
             <Label Text="Cadastro de Venda" 
                    FontSize="Title" />
             <Entry Placeholder="Valor da Venda" 
-                   x:Name="ValorVendaEntry" />
+                   x:Name="ValordaVendaEntry" />
             <Entry Placeholder="Quantidade" 
                    x:Name="QuantidadeEntry" />
             <Entry Placeholder="ID do Produto" 
