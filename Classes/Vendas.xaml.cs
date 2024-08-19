@@ -1,4 +1,4 @@
-namespace Classes
+namespace Classes;
 {
     {
         public partial class MainPage : ContentPage

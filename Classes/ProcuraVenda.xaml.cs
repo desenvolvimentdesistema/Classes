@@ -1,6 +1,6 @@
-namespace Classes
+namespace Classess
 {
-    {
+    
         public partial class  MainPage : ContentPage
         {
         public object ClienteEntry { get; private set; }
@@ -33,6 +33,4 @@ namespace Classes
     internal class Venda
     {
     }
-}
-
 }

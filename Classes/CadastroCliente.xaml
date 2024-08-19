@@ -35,37 +35,5 @@
             <Button Text="Deletar" 
                     BackgroundColor="#ADD8E6" 
                     Clicked="OnDeleteClicked" />
-        <Grid>
-           <TextBlock Text="Cadastramento" 
-                      FontSize="24" 
-                      HorizontalAlignment="Center" 
-                      Margin="10"/>
-
-          <Button Content="Deletar" 
-                  Clicked="ButtonDeleteClick" 
-                  Margin="10" />
-          <Button Content="Dados Incorretos" 
-                 Click="Button_DadosIncorretos_Click" 
-               Margin="10" />
-          <Button Content="Atualizar" 
-                  Click="Button_Atualizar_Click" 
-                  Margin="10" />
-
-        <StackPanel x:Name="panelConfirmacao" 
-                   Visibility="Collapsed" 
-                   HorizontalAlignment="Center" 
-                   Margin="10">
-            <TextBlock Text="Você tem certeza de que deseja deletar" />
-            <TextBlock x:Name="txtOperacao" />
-            <Button x:Name="btnSim" 
-                    Content="Sim" 
-                    Margin="5" />
-            <Button x:Name="btnNao" 
-                    Content="Não" 
-                    Margin="5" />
-        <Grid>
-        </StackPanel>
-        </StackLayout>
     </StackLayout>
-
 </ContentPage>

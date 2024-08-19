@@ -72,6 +72,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Classes.Estoque.xaml
 build_metadata.AdditionalFiles.TargetPath = Estoque.xaml
 build_metadata.AdditionalFiles.RelativePath = Estoque.xaml
 
+[C:/Users/Aluno/Classes/Classes/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
 [C:/Users/Aluno/Classes/Classes/MateriaPrima.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Classes.MateriaPrima.xaml
@@ -101,12 +107,6 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Classes.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
-
-[C:/Users/Aluno/Classes/Classes/TelaInicial.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.TelaInicial.xaml
-build_metadata.AdditionalFiles.TargetPath = TelaInicial.xaml
-build_metadata.AdditionalFiles.RelativePath = TelaInicial.xaml
 
 [C:/Users/Aluno/Classes/Classes/Vendas.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

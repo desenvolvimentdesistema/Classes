@@ -1,4 +1,4 @@
-namespace Classes
+namespace Classes;
 
 public class EscolherTamanhoControle : BaseControle
 {
