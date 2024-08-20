@@ -1,8 +1,8 @@
 namespace Classes;
 
-    public partial class MainPage : ContentPage
+    public partial class CadastroCliente : ContentPage
     {
-        public MainPage()
+        public CadastroCliente()
         {
             InitializeComponent();
         }

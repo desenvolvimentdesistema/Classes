@@ -1,14 +1,12 @@
-namespace Classess
-{
-    
-        public partial class  MainPage : ContentPage
+namespace Classes;
+        public partial class  ProcuraVenda : ContentPage
         {
         public object ClienteEntry { get; private set; }
         public object IdProdutoEntry { get; private set; }
         public object IdClienteEntry { get; private set; }
         public object DataVendaPicker { get; private set; }
 
-        public MainPage()
+        public ProcuraVenda()
             {
                 InitializeComponent();
             }
@@ -33,4 +31,3 @@ namespace Classess
     internal class Venda
     {
     }
-}

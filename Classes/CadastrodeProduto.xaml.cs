@@ -1,10 +1,10 @@
 namespace Classes
 {
-        public partial class MainPage : ContentPage
+        public partial class CadastrodeProduto : ContentPage
         {
-            public MainPage()
+            public CadastrodeProduto()
             {
-   
+                InitializeComponent();
             }
         }
 }

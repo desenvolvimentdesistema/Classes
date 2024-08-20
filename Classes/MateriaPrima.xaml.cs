@@ -1,10 +1,8 @@
-namespace Classes
-{
-        public partial class MainPage : ContentPage
+namespace Classes;
+        public partial class MateriaPrima : ContentPage
         {
-            public MainPage()
+            public MateriaPrima()
             {
                 InitializeComponent();
             }
         }
-}

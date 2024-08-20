@@ -1,10 +1,10 @@
-namespace Classes
-{
-    public partial class MainPage : ContentPage
+namespace Classes;
+
+    public partial class Corte : ContentPage
     {
-        public MainPage()
+        public Corte()
         {
-   
+            InitializeComponent();
         }
     }
-}
+

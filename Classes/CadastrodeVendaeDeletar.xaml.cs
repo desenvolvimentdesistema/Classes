@@ -1,11 +1,11 @@
 namespace Classes
 {
-    public partial class  MainPage : ContentPage
+    public partial class  CadastrodeVendaeDeletar : ContentPage
     {
         public object ValordaVendaEntry { get; private set; }
         public object QuantidadeEntry { get; private set; }
 
-        public MainPage()
+        public CadastrodeVendaeDeletar()
         {
 
         }

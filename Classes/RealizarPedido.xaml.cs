@@ -1,10 +1,8 @@
-namespace Classes
-{
-            public partial class MainPage : ContentPage
+namespace Classes;
+            public partial class RealizarPedido : ContentPage
             {
-                public MainPage()
+                public RealizarPedido()
                 {
                     InitializeComponent();
                 }
             }
-}
