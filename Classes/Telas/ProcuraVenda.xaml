@@ -4,18 +4,18 @@
     <ScrollView>
         <StackLayout Spacing="20" 
                      Padding="20">
-            <Label Text="Procurar Venda" 
+            <Label Text="ProcurarVenda" 
                    FontSize="Title" />
-            <Entry Placeholder="ID do Produto" 
-                   x:Name="IdProdutoEntry" />
+            <Entry Placeholder="IDdoProduto" 
+                   x:Name="IdProduto" />
             <Entry Placeholder="Cliente" 
-                   x:Name="ClienteEntry" />
-            <Entry Placeholder="ID Cliente" 
-                   x:Name="IdClienteEntry" />
-            <DatePicker DateSelected="DatePicker_DateSelected" 
+                   x:Name="Cliente" />
+            <Entry Placeholder="IDCliente" 
+                   x:Name="IdCliente" />
+            <DatePicker DateSelected="DatePickerDateSelected" 
                         x:Name="DataVendaPicker" />
             <Button Text="Procurar" 
-                    Clicked="Procurar_Clicked" />
+                    Clicked="ProcurarClicked" />
         </StackLayout>
     </ScrollView>
 </ContentPage>

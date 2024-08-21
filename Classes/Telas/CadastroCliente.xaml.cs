@@ -14,11 +14,11 @@ namespace Classes;
 
         private void OnCancelClicked(object sender, EventArgs e)
         {
-            Nome.Entry.Text = string.Empty;
-            Telefone.Entry.Text = string.Empty;
-            Endereço.Entry.Text = string.Empty;
-            Email.Entry.Text = string.Empty;
-            CPF.Entry.Text = string.Empty;
+            Nome.Text = string.Empty;
+            Telefone.Text = string.Empty;
+            Endereço.Text = string.Empty;
+            Email.Text = string.Empty;
+            CPF.Text = string.Empty;
         }
 
         private void OnDeleteClicked(object sender, EventArgs e)

@@ -10,17 +10,17 @@
                  Spacing="10">
         <Label Text="Cadastramento" 
                 HorizontalOptions="Center" />
-
-        <Entry x:Name="NomeEntry" 
+           <Entry x:Name="Nome" 
                  Placeholder="Nome" />
-        <Entry x:Name="TelefoneEntry" 
+           <Entry x:Name="Telefone" 
                  Placeholder="Telefone" />
-        <Entry x:Name="EndereçoEntry" 
+           <Entry x:Name="Endereço" 
                  Placeholder="Endereço" />
-        <Entry x:Name="EmailEntry" 
+           <Entry x:Name="Email" 
                  Placeholder="Email" />
-        <Entry x:Name="CPFEntry" 
+           <Entry x:Name="CPF" 
                  Placeholder="CPF" />
+        </StackLayout>
 
         <StackLayout Orientation="Horizontal" 
                      HorizontalOptions="Center"
@@ -35,7 +35,6 @@
             <Button Text="Deletar" 
                     BackgroundColor="#ADD8E6" 
                     Clicked="OnDeleteClicked" />
-
-    </StackLayout>
+        </StackLayout>
 
 </ContentPage>

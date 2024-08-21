@@ -1,7 +1,7 @@
 namespace Classes;
-        public partial class MainPage : ContentPage
+        public partial class TelaInicial : ContentPage
         {
-            public MainPage()
+            public TelaInicial()
             {
                 InitializeComponent();
             }

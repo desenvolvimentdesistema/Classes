@@ -28,78 +28,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Classes.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Aluno/Classes/Classes/CadastroCliente.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.CadastroCliente.xaml
-build_metadata.AdditionalFiles.TargetPath = CadastroCliente.xaml
-build_metadata.AdditionalFiles.RelativePath = CadastroCliente.xaml
-
-[C:/Users/Aluno/Classes/Classes/CadastrodeProduto.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.CadastrodeProduto.xaml
-build_metadata.AdditionalFiles.TargetPath = CadastrodeProduto.xaml
-build_metadata.AdditionalFiles.RelativePath = CadastrodeProduto.xaml
-
-[C:/Users/Aluno/Classes/Classes/CadastrodeVendaeDeletar.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.CadastrodeVendaeDeletar.xaml
-build_metadata.AdditionalFiles.TargetPath = CadastrodeVendaeDeletar.xaml
-build_metadata.AdditionalFiles.RelativePath = CadastrodeVendaeDeletar.xaml
-
-[C:/Users/Aluno/Classes/Classes/Corte.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.Corte.xaml
-build_metadata.AdditionalFiles.TargetPath = Corte.xaml
-build_metadata.AdditionalFiles.RelativePath = Corte.xaml
-
-[C:/Users/Aluno/Classes/Classes/Costura.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.Costura.xaml
-build_metadata.AdditionalFiles.TargetPath = Costura.xaml
-build_metadata.AdditionalFiles.RelativePath = Costura.xaml
-
-[C:/Users/Aluno/Classes/Classes/EscolherQuantidade.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.EscolherQuantidade.xaml
-build_metadata.AdditionalFiles.TargetPath = EscolherQuantidade.xaml
-build_metadata.AdditionalFiles.RelativePath = EscolherQuantidade.xaml
-
-[C:/Users/Aluno/Classes/Classes/EscolherTamanho.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.EscolherTamanho.xaml
-build_metadata.AdditionalFiles.TargetPath = EscolherTamanho.xaml
-build_metadata.AdditionalFiles.RelativePath = EscolherTamanho.xaml
-
-[C:/Users/Aluno/Classes/Classes/Estoque.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.Estoque.xaml
-build_metadata.AdditionalFiles.TargetPath = Estoque.xaml
-build_metadata.AdditionalFiles.RelativePath = Estoque.xaml
-
-[C:/Users/Aluno/Classes/Classes/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
-[C:/Users/Aluno/Classes/Classes/MateriaPrima.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.MateriaPrima.xaml
-build_metadata.AdditionalFiles.TargetPath = MateriaPrima.xaml
-build_metadata.AdditionalFiles.RelativePath = MateriaPrima.xaml
-
-[C:/Users/Aluno/Classes/Classes/ProcuraVenda.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.ProcuraVenda.xaml
-build_metadata.AdditionalFiles.TargetPath = ProcuraVenda.xaml
-build_metadata.AdditionalFiles.RelativePath = ProcuraVenda.xaml
-
-[C:/Users/Aluno/Classes/Classes/RealizarPedido.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.RealizarPedido.xaml
-build_metadata.AdditionalFiles.TargetPath = RealizarPedido.xaml
-build_metadata.AdditionalFiles.RelativePath = RealizarPedido.xaml
-
 [C:/Users/Aluno/Classes/Classes/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Classes.Resources.Styles.Colors.xaml
@@ -112,8 +40,80 @@ build_metadata.AdditionalFiles.ManifestResourceName = Classes.Resources.Styles.S
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Aluno/Classes/Classes/Vendas.xaml]
+[C:/Users/Aluno/Classes/Classes/Telas/CadastroCliente.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.Vendas.xaml
-build_metadata.AdditionalFiles.TargetPath = Vendas.xaml
-build_metadata.AdditionalFiles.RelativePath = Vendas.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.CadastroCliente.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\CadastroCliente.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\CadastroCliente.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/CadastrodeProduto.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.CadastrodeProduto.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\CadastrodeProduto.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\CadastrodeProduto.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/CadastrodeVendaeDeletar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.CadastrodeVendaeDeletar.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\CadastrodeVendaeDeletar.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\CadastrodeVendaeDeletar.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/Corte.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.Corte.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\Corte.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\Corte.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/Costura.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.Costura.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\Costura.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\Costura.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/EscolherQuantidade.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.EscolherQuantidade.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\EscolherQuantidade.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\EscolherQuantidade.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/EscolherTamanho.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.EscolherTamanho.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\EscolherTamanho.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\EscolherTamanho.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/Estoque.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.Estoque.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\Estoque.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\Estoque.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/MateriaPrima.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.MateriaPrima.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\MateriaPrima.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\MateriaPrima.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/ProcuraVenda.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.ProcuraVenda.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\ProcuraVenda.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\ProcuraVenda.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/RealizarPedido.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.RealizarPedido.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\RealizarPedido.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\RealizarPedido.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/TelaInicial.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.TelaInicial.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\TelaInicial.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\TelaInicial.xaml
+
+[C:/Users/Aluno/Classes/Classes/Telas/Vendas.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.Vendas.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\Vendas.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\Vendas.xaml

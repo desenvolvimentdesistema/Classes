@@ -9,18 +9,26 @@
         </Grid.RowDefinitions>
 
         <Label Text="Vendas"
-               FontSize="Title"
+               FontSize="16"
                HorizontalTextAlignment="Center"
                VerticalTextAlignment="Center" />
 
-        <Button Text="Consultar Vendas"
+        <Button Text="ConsultarVendas"
                 Grid.Row="1"
                 VerticalOptions="Center"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center"
+                Clicked="ConsultarVendasClicked" />
 
-        <Button Text="Processar Venda"
+        <Button Text="ProcessarVendas"
                 Grid.Row="2"
                 VerticalOptions="Center"
-                HorizontalOptions="Center" />
+                HorizontalOptions="Center" 
+                Clicked="ProcessarVendasClicked" />
+
+        <Button Text="ProcurarVendas"
+                Grid.Row="3"
+                 VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="ProcurarVendasClicked" />
     </Grid>
 </ContentPage>

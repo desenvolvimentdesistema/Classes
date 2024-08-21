@@ -1,3 +1,5 @@
+using LiteDB;
+
 namespace Classes
 {
     public class BaseControle
