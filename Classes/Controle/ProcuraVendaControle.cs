@@ -22,7 +22,7 @@ namespace Classes
       public virtual List<ProcuraVenda>? LerTodos()
       {
         var tabela = liteDB.GetCollection<ProcuraVenda>(NomeDaTabela);
-        return new List<ProcuraVenda>(tabela.FindAll().OrderBy(d => d.Sobrenome));
+        return new List<ProcuraVenda>(tabela.FindAll().OrderBy(d => d.DataVenda));
       }
 
       //----------------------------------------------------------------------------
@@ -35,10 +35,10 @@ namespace Classes
 
       //----------------------------------------------------------------------------
 
-      public virtual void CriarOuAtualizar(Cliente cliente)
+      public virtual void CriarOuAtualizar(ProcuraVenda procuravenda)
       {
         var collection = liteDB.GetCollection<ProcuraVenda>(NomeDaTabela);
-        collection.Upsert(cliente);
+        collection.Upsert(procuravenda);
       }
 
       //----------------------------------------------------------------------------

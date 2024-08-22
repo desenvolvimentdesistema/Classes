@@ -11,34 +11,34 @@ namespace Classes
 
       //----------------------------------------------------------------------------
 
-      public virtual Cadastro? Ler(int idCliente)
+      public virtual Cadastro? Ler(int idCorte)
       {
-        var collection = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        return collection.FindOne(d => d.Id == idCliente);
+        var collection = liteDB.GetCollection<Corte>(NomeDaTabela);
+        return collection.FindOne(d => d.Id == idCorte);
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual List<Cliente>? LerTodos()
+      public virtual List<Corte>? LerTodos()
       {
         var tabela = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        return new List<Cliente>(tabela.FindAll().OrderBy(d => d.Sobrenome));
+        return new List<Corte>(tabela.FindAll().OrderBy(d => d.Corte));
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual void Apagar(int idCliente)
+      public virtual void Apagar(int idCorte)
       {
-        var collection = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        collection.Delete(idCliente);
+        var collection = liteDB.GetCollection<Corte>(NomeDaTabela);
+        collection.Delete(idCorte);
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual void CriarOuAtualizar(Cliente cliente)
+      public virtual void CriarOuAtualizar(Corte corte)
       {
-        var collection = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        collection.Upsert(cliente);
+        var collection = liteDB.GetCollection<Corte>(NomeDaTabela);
+        collection.Upsert(corte);
       }
 
       //----------------------------------------------------------------------------

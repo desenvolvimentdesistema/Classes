@@ -11,34 +11,34 @@ namespace Classes
 
       //----------------------------------------------------------------------------
 
-      public virtual Registro? Ler(int idCliente)
+      public virtual Registro? Ler(int idMateriaPrima)
       {
-        var collection = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        return collection.FindOne(d => d.Id == idCliente);
+        var collection = liteDB.GetCollection<MateriaPrima>(NomeDaTabela);
+        return collection.FindOne(d => d.Id == idMateriaPrima);
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual List<Cliente>? LerTodos()
+      public virtual List<MateriaPrima>? LerTodos()
       {
-        var tabela = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        return new List<Cliente>(tabela.FindAll().OrderBy(d => d.Sobrenome));
+        var tabela = liteDB.GetCollection<MateriaPrima>(NomeDaTabela);
+        return new List<MateriaPrima>(tabela.FindAll().OrderBy(d => d.MateriaPrima));
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual void Apagar(int idCliente)
+      public virtual void Apagar(int idMateriaPrima)
       {
-        var collection = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        collection.Delete(idCliente);
+        var collection = liteDB.GetCollection<MateriaPrima>(NomeDaTabela);
+        collection.Delete(idMateriaPrima);
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual void CriarOuAtualizar(Cliente cliente)
+      public virtual void CriarOuAtualizar(MateriaPrima materiaprima)
       {
-        var collection = liteDB.GetCollection<Cliente>(NomeDaTabela);
-        collection.Upsert(cliente);
+        var collection = liteDB.GetCollection<MateriaPrima>(NomeDaTabela);
+        collection.Upsert(materiaprima);
       }
 
       //----------------------------------------------------------------------------

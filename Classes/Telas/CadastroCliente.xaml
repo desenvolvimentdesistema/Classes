@@ -36,5 +36,5 @@
                     BackgroundColor="#ADD8E6" 
                     Clicked="OnDeleteClicked" />
         </StackLayout>
-
+        
 </ContentPage>

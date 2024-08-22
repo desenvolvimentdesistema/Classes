@@ -29,18 +29,18 @@ namespace Classes
 
       //----------------------------------------------------------------------------
 
-      public virtual void Apagar(int idVenda)
+      public virtual void Apagar(int idVendas)
       {
-        var collection = liteDB.GetCollection<Venda>(NomeDaTabela);
-        collection.Delete(idVenda);
+        var collection = liteDB.GetCollection<Vendas>(NomeDaTabela);
+        collection.Delete(idVendas);
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual void CriarOuAtualizar(Cliente cliente)
+      public virtual void CriarOuAtualizar(Vendas vendas)
       {
-        var collection = liteDB.GetCollection<Venda>(NomeDaTabela);
-        collection.Upsert(cliente);
+        var collection = liteDB.GetCollection<Vendas>(NomeDaTabela);
+        collection.Upsert(vendas);
       }
 
       //----------------------------------------------------------------------------

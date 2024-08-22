@@ -88,6 +88,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.Estoque.xaml
 build_metadata.AdditionalFiles.TargetPath = Telas\Estoque.xaml
 build_metadata.AdditionalFiles.RelativePath = Telas\Estoque.xaml
 
+[C:/Users/Aluno/Classes/Classes/Telas/ListaClientes.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.ListaClientes.xaml
+build_metadata.AdditionalFiles.TargetPath = Telas\ListaClientes.xaml
+build_metadata.AdditionalFiles.RelativePath = Telas\ListaClientes.xaml
+
 [C:/Users/Aluno/Classes/Classes/Telas/MateriaPrima.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.MateriaPrima.xaml
