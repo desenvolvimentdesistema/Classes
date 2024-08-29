@@ -7,41 +7,45 @@ namespace Classes
 
       public PedidoControle() : base()
       {
-        NomeDaTabela = "Pedidos";
+        NomeDaTabela = "Pedido";
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual Cadastro? Ler(int idPedidos)
+      public virtual Cadastro? Ler(int idPedido)
       {
-        var collection = liteDB.GetCollection<Pedidos>(NomeDaTabela);
-        return collection.FindOne(d => d.Id == idPedidos);
+        var collection = liteDB.GetCollection<Pedido>(NomeDaTabela);
+        return collection.FindOne(d => d.Id == idPedido);
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual List<Pedidos>? LerTodos()
+      public virtual List<Pedido>? LerTodos()
       {
-        var tabela = liteDB.GetCollection<Pedidos>(NomeDaTabela);
-        return new List<Pedidos>(tabela.FindAll().OrderBy(d => d.Pedidos));
+        var tabela = liteDB.GetCollection<Pedido>(NomeDaTabela);
+        return new List<Pedido>(tabela.FindAll().OrderBy(d => d.Pedido));
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual void Apagar(int idPedidos)
+      public virtual void Apagar(int idPedido)
       {
-        var collection = liteDB.GetCollection<Pedidos>(NomeDaTabela);
-        collection.Delete(idPedidos);
+        var collection = liteDB.GetCollection<Pedido>(NomeDaTabela);
+        collection.Delete(idPedido);
       }
 
       //----------------------------------------------------------------------------
 
-      public virtual void CriarOuAtualizar(Pedidos pedidos)
+      public virtual void CriarOuAtualizar(Pedido pedido)
       {
-        var collection = liteDB.GetCollection<Pedidos>(NomeDaTabela);
-        collection.Upsert(pedidos);
+        var collection = liteDB.GetCollection<Pedido>(NomeDaTabela);
+        collection.Upsert(pedido);
       }
 
       //----------------------------------------------------------------------------
+    }
+
+    internal class Pedido
+    {
     }
 }

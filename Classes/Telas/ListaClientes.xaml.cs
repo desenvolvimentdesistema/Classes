@@ -5,15 +5,22 @@ public partial class ListaClientes : ContentPage
 {
   Controle.ClienteControle clienteControle = new Controles.ClienteControle();
 
-  public ListaClientes()
+    public static object ItemsSource { get; private set; }
+
+    public ListaClientes()
 	{
 		InitializeComponent();
     // Buscamos no banco de dados, via Controle, a lista de todos os Clientes cadastrados
     ListaClientes.ItemsSource = clienteControle.LerTodos();
 	}
 
-  // Esse método será chamado toda vez que o usuário selecionar um cliente na lista
-  void QuandoSelecionarUmItemNaLista(object sender, SelectedItemChangedEventArgs e)
+    private void InitializeComponent()
+    {
+        throw new NotImplementedException();
+    }
+
+    // Esse método será chamado toda vez que o usuário selecionar um cliente na lista
+    void QuandoSelecionarUmItemNaLista(object sender, SelectedItemChangedEventArgs e)
   {
     // Criaremos a página para onde queremos ir. Nesse caso iremos para o CadastroClientePage,
     // que é a página onde os dados do cliente podem ser criados/editados
@@ -33,4 +40,9 @@ public partial class ListaClientes : ContentPage
     // sendo assim, apenas criamos a nova página
     Application.Current.MainPage = new CadastroClientePage();
   }
+}
+
+internal class CadastroClientePage : Page
+{
+    internal Cliente cliente;
 }
