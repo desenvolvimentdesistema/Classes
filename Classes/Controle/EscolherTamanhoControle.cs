@@ -14,7 +14,7 @@ public class EscolherTamanhoControle : BaseControle
   public virtual Cadastro? Ler(int idEscolherTamanho)
   {
     var collection = liteDB.GetCollection<EscolherTamanho>(NomeDaTabela);
-    return collection.FindOne(d => d.Id == idEscolherTamanho);
+    return collection.FindOne(g => g.Id == idEscolherTamanho);
   }
 
   //----------------------------------------------------------------------------
@@ -22,7 +22,7 @@ public class EscolherTamanhoControle : BaseControle
   public virtual List<EscolherTamanho>? LerTodos()
   {
     var tabela = liteDB.GetCollection<EscolherTamanho>(NomeDaTabela);
-    return new List<EscolherTamanho>(tabela.FindAll().OrderBy(d => d.Tamanho));
+    return new List<EscolherTamanho>(tabela.FindAll().OrderBy(g => g.Tamanho));
   }
 
   //----------------------------------------------------------------------------

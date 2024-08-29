@@ -14,7 +14,7 @@ namespace Classes
       public virtual Registro? Ler(int idMateriaPrima)
       {
         var collection = liteDB.GetCollection<MateriaPrima>(NomeDaTabela);
-        return collection.FindOne(d => d.Id == idMateriaPrima);
+        return collection.FindOne(i => i.Id == idMateriaPrima);
       }
 
       //----------------------------------------------------------------------------
@@ -22,7 +22,7 @@ namespace Classes
       public virtual List<MateriaPrima>? LerTodos()
       {
         var tabela = liteDB.GetCollection<MateriaPrima>(NomeDaTabela);
-        return new List<MateriaPrima>(tabela.FindAll().OrderBy(d => d.MateriaPrima));
+        return new List<MateriaPrima>(tabela.FindAll().OrderBy(i => i.MateriaPrima));
       }
 
       //----------------------------------------------------------------------------
