@@ -20,7 +20,6 @@
                  Placeholder="Email" />
            <Entry x:Name="CPF" 
                  Placeholder="CPF" />
-        </StackLayout>
 
         <StackLayout Orientation="Horizontal" 
                      HorizontalOptions="Center"
@@ -35,6 +34,7 @@
             <Button Text="Deletar" 
                     BackgroundColor="#ADD8E6" 
                     Clicked="OnDeleteClicked" />
+             </StackLayout>
         </StackLayout>
         
 </ContentPage>

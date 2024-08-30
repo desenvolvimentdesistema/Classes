@@ -1,13 +1,13 @@
 namespace Classes
 {
-    public partial class  CadastrodeVendaeDeletar : ContentPage
+    public partial class CadastrodeVendaeDeletar : ContentPage
     {
-        public object ValordaVendaEntry { get; private set; }
-        public object QuantidadeEntry { get; private set; }
+        // public object ValordaVendaEntry { get; private set; }
+        // public object QuantidadeEntry { get; private set; }
 
         public CadastrodeVendaeDeletar()
         {
-
+            InitializeComponent();
         }
 
         private void Salvar_Clicked(object sender, EventArgs e)
