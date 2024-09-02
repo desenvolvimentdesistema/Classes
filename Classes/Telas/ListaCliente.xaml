@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="LiteDBExample.ListaClientes"
-             BackgroundColor="LightBlue"
+             x:Class="Classes.ListaCliente"
+             BackgroundColor="#FFB6C1"
              Title="Cadastrar cliente">
   <VerticalStackLayout>
   <Button Text="Criar Novo Cliente"
-          BackgroundColor="Orange"
+          BackgroundColor="#FFB6C1"
           FontSize="16"
           TextColor="Black"
           Clicked="NovoClienteClicked"/>
-    <ListView x:Name="ListaClientes"
+    <ListView x:Name="ListaCliente"
               HasUnevenRows="True"
               ItemSelected="QuandoSelecionarUmItemNaLista"
               HorizontalOptions="Fill"
@@ -19,7 +19,7 @@
         <DataTemplate>
           <ViewCell>
             <VerticalStackLayout Padding="20"
-                                BackgroundColor="Pink">
+                                BackgroundColor="#dff1f7">
               <HorizontalStackLayout>
                 <Label Text="{Binding Nome}"
                       FontSize="20"/>

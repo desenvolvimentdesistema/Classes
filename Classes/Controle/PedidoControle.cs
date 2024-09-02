@@ -36,6 +36,7 @@ namespace Classes
 
       //----------------------------------------------------------------------------
 
+      
       public virtual void CriarOuAtualizar(Pedido pedido)
       {
         var collection = liteDB.GetCollection<Pedido>(NomeDaTabela);

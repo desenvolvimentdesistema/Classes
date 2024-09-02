@@ -1,13 +1,13 @@
 using Classes.Modelos;
 
 namespace Classes;
-public partial class ListaClientes : ContentPage
+public partial class ListaCliente : ContentPage
 {
   Controle.ClienteControle clienteControle = new Controles.ClienteControle();
 
     public static object ItemsSource { get; private set; }
 
-    public ListaClientes()
+    public ListaCliente()
 	{
 		InitializeComponent();
     // Buscamos no banco de dados, via Controle, a lista de todos os Clientes cadastrados
