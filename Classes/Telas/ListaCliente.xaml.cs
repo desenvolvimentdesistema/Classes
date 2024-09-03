@@ -11,7 +11,7 @@ public partial class ListaCliente : ContentPage
 	{
 		InitializeComponent();
     // Buscamos no banco de dados, via Controle, a lista de todos os Clientes cadastrados
-    ListaClientes.ItemsSource = clienteControle.LerTodos();
+    ListaCliente.ItemsSource = clienteControle.LerTodos();
 	}
 
     private void InitializeComponent()

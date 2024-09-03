@@ -12,14 +12,17 @@
         <Button Text="Escolher Quantidade"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
+                Clicked="EscolherQuantidadeClicked"
                 BackgroundColor="#d3d3d3"/>
         <Button Text="Escolher Cor"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
+                Clicked="EscolherCorClicked"
                 BackgroundColor="#d3d3d3"/>
         <Button Text="Escolher Tamanho"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
+                Clicked="EscolherTamanhoClicked"
                 BackgroundColor="#d3d3d3"/>
         <StackLayout Orientation="Horizontal"
                      HorizontalOptions="Center"

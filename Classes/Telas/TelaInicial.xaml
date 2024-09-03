@@ -12,22 +12,27 @@
         <Button Text="Cadastro"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
+                Clicked="CadastroClicked"
                 BackgroundColor="#d3d3d3"/>
         <Button Text="Realizar Pedido"
                 HorizontalOptions="Center"
+                Clicked="RealizarPedidoClicked"
                 VerticalOptions="Start"
                 BackgroundColor="#d3d3d3"/>
         <Button Text="Estoque"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
+                Clicked="EstoqueClicked"
                 BackgroundColor="#d3d3d3"/>
         <Button Text="Controle de Qualidade"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
+                Clicked="ControledeQualidadeClicked"
                 BackgroundColor="#d3d3d3"/>
         <Button Text="Feedback do Cliente"
                 HorizontalOptions="Center"
                 VerticalOptions="Start"
+                Clicked="FeedbackdoClienteClicked"
                 BackgroundColor="#d3d3d3"/>
     </StackLayout>
 </ContentPage>
