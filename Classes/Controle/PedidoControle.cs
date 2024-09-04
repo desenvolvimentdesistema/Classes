@@ -1,3 +1,4 @@
+using Classes.Modelos;
 using LiteDB;
 namespace Classes
 {
@@ -44,9 +45,5 @@ namespace Classes
       }
 
       //----------------------------------------------------------------------------
-    }
-
-    internal class Pedido
-    {
     }
 }

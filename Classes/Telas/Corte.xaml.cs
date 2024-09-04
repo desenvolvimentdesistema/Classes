@@ -1,10 +1,10 @@
 namespace Classes;
-
-    public partial class Corte : ContentPage
-    {
-        public Corte()
+        public partial class Corte : ContentPage
         {
-            InitializeComponent();
-        }
-    }
+        
 
+        public Corte()
+            {
+                InitializeComponent();
+            }
+        }   

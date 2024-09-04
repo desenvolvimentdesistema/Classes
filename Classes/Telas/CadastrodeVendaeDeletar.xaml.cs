@@ -1,7 +1,7 @@
 namespace Classes
 {
     public partial class CadastrodeVendaeDeletar : ContentPage
-    {
+    {        
         // public object ValordaVendaEntry { get; private set; }
         // public object QuantidadeEntry { get; private set; }
 

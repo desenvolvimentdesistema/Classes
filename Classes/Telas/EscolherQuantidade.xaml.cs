@@ -1,7 +1,8 @@
 namespace Classes;
-        public partial class  EscolherQuantidade : ContentPage
+        public partial class EscolherQuantidade : ContentPage
         {
-            public EscolherQuantidade()
+
+        public EscolherQuantidade()
             {
                 InitializeComponent();
             }

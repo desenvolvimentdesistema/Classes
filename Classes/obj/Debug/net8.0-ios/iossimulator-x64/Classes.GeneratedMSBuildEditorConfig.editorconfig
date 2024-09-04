@@ -76,12 +76,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.EscolherQuan
 build_metadata.AdditionalFiles.TargetPath = Telas\EscolherQuantidade.xaml
 build_metadata.AdditionalFiles.RelativePath = Telas\EscolherQuantidade.xaml
 
-[C:/Users/Aluno/Classes/Classes/Telas/EscolherTamanho.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.EscolherTamanho.xaml
-build_metadata.AdditionalFiles.TargetPath = Telas\EscolherTamanho.xaml
-build_metadata.AdditionalFiles.RelativePath = Telas\EscolherTamanho.xaml
-
 [C:/Users/Aluno/Classes/Classes/Telas/Estoque.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Classes.Telas.Estoque.xaml

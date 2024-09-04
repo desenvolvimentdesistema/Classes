@@ -1,8 +1,9 @@
 namespace Classes;
-            public partial class Costura : ContentPage
+        public partial class Costura : ContentPage
+        {
+
+        public Costura()
             {
-                public Costura()
-                {
-                    InitializeComponent();
-                }
+                InitializeComponent();
             }
+        }   

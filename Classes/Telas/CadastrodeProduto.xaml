@@ -37,14 +37,17 @@
                                Spacing="10">
             <Button Text="Salvar"
                     BackgroundColor="LightPink"
+                    Clicked="SalvarClicked"
                     TextColor="Black" />
 
             <Button Text="Cancelar"
                     BackgroundColor="DarkRed"
+                    Clicked="CancelarClicked"
                     TextColor="White" />
 
             <Button Text="Deletar"
                     BackgroundColor="LightBlue"
+                    Clicked="DeletarClicked"
                     TextColor="Black" />
         </HorizontalStackLayout>
 

@@ -1,7 +1,8 @@
 namespace Classes;
         public partial class MateriaPrima : ContentPage
         {
-            public MateriaPrima()
+
+        public MateriaPrima()
             {
                 InitializeComponent();
             }
